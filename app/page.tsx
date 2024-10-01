@@ -1,7 +1,5 @@
+import Hero from '@/components/(home)/hero'
+
 export default function Home() {
-  return (
-    <div>
-      Hola <p className="font-bold">black</p>
-    </div>
-  )
+  return <Hero />
 }
